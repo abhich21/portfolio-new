@@ -222,3 +222,13 @@ document.getElementById("check").onclick = function() {
       alert('Fill all the fields');
     }
   };
+
+
+  // download button
+  const resumeBtn = document.querySelector(".resume__button");
+    resumeBtn.addEventListener("click", function(){
+        console.log("clicked")
+        window.open("https://drive.google.com/file/d/1YOaTK5tzlUlq7LtZksU9uRBEqEsylzTZ/view",
+            "_blank"
+        )
+    });
